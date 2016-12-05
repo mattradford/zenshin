@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all pages.
+ * The template for displaying all custom pages.
  *
  * Template Name: Custom Page
  *
@@ -22,7 +22,7 @@ get_header(); ?>
 			<?php do_action('generate_before_main_content'); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', 'page' ); ?>
+				<?php get_template_part( 'content', 'page-custom' ); ?>
 
 
 			<?php endwhile; // end of the loop. ?>
