@@ -1,0 +1,51 @@
+/*
+Theme Name: Zenshin
+Theme URI: https://www.aikido-reading.co.uk
+Author: Suzie Hibberd & Matt Rdaford
+Author URI: https://mattrad.uk
+Template: generatepress
+Description:  GeneratePress child theme for Reading Zenshin aikido club.
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+body, .inside-article, .comments-area, .page-header, .one-container .container, .paging-navigation, .inside-page-header, .sidebar .widget {
+	background-color: white !important;
+}
+
+
+.footer-widgets {
+	background-color: #50656e;
+    padding: 40px 0px;
+	color: white;
+}
+
+.footer-widgets a, .footer-widgets a:visited{
+	color: white !important;
+}
+
+.footer-widgets .widget-title {
+	font-family: "Droid Serif", Sans-serif;
+	font-weight: 600;
+	border-bottom: 1px solid #3a3a3a;
+	color: white;
+	display: inline-block;
+}
+
+footer p:last-child {
+	margin-bottom: 0;
+}
+
+/* ------- Responsive code here ------- */
+
+@media only screen and (min-width:768px){
+	.home .billboard {
+		min-height: 600px;
+	}
+}
+
+@media only screen and (min-width:768px){
+	.inside-footer-widgets.grid-container {
+
+	}
+}
