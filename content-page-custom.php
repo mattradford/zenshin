@@ -10,7 +10,6 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> <?php generate_article_schema( 'CreativeWork' ); ?>>
-  <h2>wibble</h2>
   <?php
   include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 
