@@ -1,7 +1,7 @@
 <section class="billboard">
 
   <?php
-  $image = get_field( 'logo' );
+  $image = get_sub_field( 'logo' );
   if ( !empty( $image ) ) {
     print_r($image);
   ?>
