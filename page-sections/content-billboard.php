@@ -4,8 +4,9 @@
   $image = get_sub_field( 'logo' );
   if ( !empty( $image ) ) {
     print_r($image);
+    $image_id = $image->ID;
+    echo wp_get_attachment( $image_id, 'full' );
   ?>
-    <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
   <?php } ?>
 
 </section>
