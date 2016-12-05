@@ -4,7 +4,7 @@
   $image = get_sub_field( 'logo' );
   if ( !empty( $image ) ) {
     print_r($image);
-    $image_id = $image[ID];
+    $image_id = $image->ID;
     echo wp_get_attachment_image( $image_id, 'full' );
   ?>
   <?php } ?>
