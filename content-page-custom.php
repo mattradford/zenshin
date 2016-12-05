@@ -1,6 +1,6 @@
 <?php
 /**
- * Template: Page Custom
+ * Template Name: Page Custom
  * The template used for displaying custom page content in page-custom.php
  *
  * @package zenshin
