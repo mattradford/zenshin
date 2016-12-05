@@ -17,19 +17,20 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header(); ?>
 
-	<div id="primary" <?php generate_content_class();?>>
-		<main id="main" <?php generate_main_class(); ?>>
-			<?php do_action('generate_before_main_content'); ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+	<div id="primary">
+		<main id="main">
 
-				<?php get_template_part( 'content', 'page-custom' ); ?>
+			<?php
+			while ( have_posts() ) :
 
+				the_post();
+				get_template_part( 'content', 'page-custom' );
 
-			<?php endwhile; // end of the loop. ?>
-			<?php do_action('generate_after_main_content'); ?>
+			endwhile; // end of the loop.
+			?>
+			
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
-do_action('generate_sidebars');
 get_footer();
