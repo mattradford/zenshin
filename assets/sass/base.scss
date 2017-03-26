@@ -231,4 +231,11 @@ footer p:last-child {
 			}
 		}
 	}
+	#right-sidebar {
+		margin-top: 64px;
+		padding-left: 5%;
+		.widget .widget-title {
+			margin-bottom: 15px;
+		}
+	}
 }

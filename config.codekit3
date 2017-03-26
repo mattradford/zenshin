@@ -183,18 +183,6 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
-	"\/page-sections\/content-billboard.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-sections\/content-billboard.php",
-		"oF": 0
-		},
-	"\/page-sections\/content-image-and-text.php": {
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-sections\/content-image-and-text.php",
-		"oF": 0
-		},
 	"\/README.MD": {
 		"cS": 0,
 		"eF": 1,
