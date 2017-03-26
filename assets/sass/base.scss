@@ -50,7 +50,25 @@ body,
 		background-color: #2faca0 !important;
 	}
 }
-
+	aside.widget_tinyletter {
+		p, .form-group label {
+			font-size: 16px;
+		}
+		.form-group label {
+			color: #666666;
+		}
+		input[type="email"] {
+			margin: 3px 0 10px !important;
+			border-radius: 6px;
+		}
+		input[type="submit"] {
+			background-color: #f0ad4e;
+			border-radius: 6px;
+			&:hover, &:focus {
+				opacity: 0.9;
+			}
+		}
+	}
 .footer-widgets {
 	background-color: #50656e;
 	padding: 40px 0px;
