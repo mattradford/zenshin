@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=1.78,t=$(".embed-container iframe"),i=t.outerHeight(),n=i*e,r=n/2;t.css({width:n+"px",left:"50%","margin-left":"-"+r+"px"})}),$(window).on("resize",function(){var e=1.78,t=$(".embed-container iframe"),i=t.outerHeight(),n=i*e,r=n/2;t.css({width:n+"px",left:"50%","margin-left":"-"+r+"px"})});
