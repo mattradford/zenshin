@@ -113,11 +113,12 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 			<p>Reading Zenshin is a member of these organisations</p>
 			<div class="inside-site-info grid-container grid-parent">
 				
+				
+				<div class="member-of tiae">
+					<a href="http://takemusu-iwama-aikido.org/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/tiae-logo.jpg" alt="TIA Europe logo"></a>
+				</div>
 				<div class="member-of">
 					<a href="http://www.aikikai.or.jp/eng/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/aikikai-logo.jpeg" alt="Aikikai logo"></a>
-				</div>
-				<div class="member-of tiae">
-					<a href="http://takemusu-iwama-aikido.org/"><h5>Takemusu Iwama Aikido Europe</h5></a>
 				</div>
 				<div class="member-of bab">
 					<a href="http://www.bab.org.uk"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/bab-logo.png" alt="British Aikido Board logo"></a>
